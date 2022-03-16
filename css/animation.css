@@ -1,0 +1,27 @@
+/* .logo{
+  animation:1s;
+  animation-name: welcome-slidein;
+}
+ @keyframes welcome-slidein {
+   from {
+           margin-left: 300%;
+           width: 100%;
+       }
+
+       to {
+           margin-left: 80%;
+           width: 50%;
+       }
+ } */
+.header-animation{
+  animation: 2s;
+  animation-name: title-slide;
+}
+@keyframes title-slide {
+  0% {
+  margin-left: 200%;
+}
+100% {
+  margin-left: 0%;
+}
+}
