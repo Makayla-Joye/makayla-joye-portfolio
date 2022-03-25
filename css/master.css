@@ -451,6 +451,9 @@ footer{
   padding: 30px;
 }
 /*EXCUDE Fashion Stylization */
+#Excude-info {
+  padding-bottom: 40px;
+}
  .excude-container{
    display: flex;
      flex-direction: column;
@@ -478,6 +481,15 @@ footer{
   padding-top:100px;
   padding-left:5px;
 }
+.excude-single-img {
+  display: block;
+  align-items: center;
+  width: 45%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 40px;
+}
+
 /*Organic Honey Website Wireframe */
 .honey-wire-container{
   display: flex;
@@ -564,6 +576,36 @@ footer{
   align-items: center;
   padding-top:300px;
   width:100%;
+}
+/*State Street Spring Ad Page Custimization*/
+.state-spring-grid {
+  display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: auto;
+}
+.state-spring-row{
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 85%;
+  padding-left:20px;
+  padding-right:20px;
+}
+.state-spring-img-l{
+  width:50%;
+  align-items: left;
+  padding-bottom: 35%;
+  padding-right:5px;
+}
+.state-spring-img-r{
+  width:50%;
+  align-items: right;
+  padding-top:35%;
+  padding-left:5px;
 }
 @media only screen and  (max-width:768px) {
   /*Navigation Customization*/
