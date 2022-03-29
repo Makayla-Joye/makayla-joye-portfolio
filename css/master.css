@@ -749,6 +749,9 @@ padding-top:20px;
 .contact-right {
   text-align: center;
 }
+.contact-txt{
+  font-size: 20pt;
+}
 
 .portfolio_grid {
     display: flex;
